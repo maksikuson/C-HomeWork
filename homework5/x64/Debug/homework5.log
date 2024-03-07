@@ -1,0 +1,4 @@
+﻿  homework5.cpp
+E:\project\HomeWorkC++\homework5\homework5.cpp(176,10): warning C4101: 'n2': unreferenced local variable
+E:\project\HomeWorkC++\homework5\homework5.cpp(176,6): warning C4101: 'n1': unreferenced local variable
+  homework5.vcxproj -> E:\project\HomeWorkC++\homework1\x64\Debug\homework5.exe
