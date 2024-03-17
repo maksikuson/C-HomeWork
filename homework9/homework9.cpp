@@ -304,4 +304,5 @@ int main()
 	cout << "Decimal equivalent: " << decimalNumber;
 
 
+
 }
