@@ -118,5 +118,4 @@ int main()
 	A = nullptr;
 	B = nullptr;
 	thirdArray = nullptr;
-
 }
