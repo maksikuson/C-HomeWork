@@ -1,0 +1,5 @@
+﻿  header.cpp
+E:\project\HomeWorkC++\homework16\header.cpp(9,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  homework16.cpp
+  Generating Code...
+  homework16.vcxproj -> E:\project\HomeWorkC++\homework1\x64\Debug\homework16.exe

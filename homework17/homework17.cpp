@@ -144,10 +144,8 @@ int main()
         cout << "Error opening files." << endl;
         return 1;
     }
-
     string line;
     int shift = 3;
-
     while (getline(fin, line)) 
     {
         for (char& ch : line) 
