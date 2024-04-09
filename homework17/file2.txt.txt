@@ -1,0 +1,5 @@
+Character count: 447
+Line count: 3
+Vowel count: 167
+Consonant count: 202
+Digit count: 0
