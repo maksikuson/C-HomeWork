@@ -13,7 +13,8 @@ public:
         denominator = denominators;
     }
 
-    void simplify() {
+    void simplify()
+    {
         int gcd = gcdCalc(numerator, denominator);
         numerator /= gcd;
         denominator /= gcd;

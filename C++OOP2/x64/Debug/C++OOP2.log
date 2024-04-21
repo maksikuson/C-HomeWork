@@ -1,0 +1,4 @@
+﻿  C++OOP2.cpp
+E:\project\HomeWorkC++\C++OOP2\C++OOP2.cpp(26,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\project\HomeWorkC++\C++OOP2\C++OOP2.cpp(47,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  C++OOP2.vcxproj -> E:\project\HomeWorkC++\homework1\x64\Debug\C++OOP2.exe
