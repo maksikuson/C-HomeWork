@@ -69,6 +69,7 @@ int String::count = 0;
 
 int main()
 {
+
 	String s1;
 	String s2(100);
 	String s3("Hello");
@@ -80,4 +81,5 @@ int main()
 	s1.display();
 
 	cout << "Number of String objects: " << String::getCount() << endl;
+
 }
