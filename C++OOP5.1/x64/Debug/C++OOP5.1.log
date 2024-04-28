@@ -1,0 +1,3 @@
+﻿  C++OOP5.1.cpp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+E:\project\HomeWorkC++\homework1\x64\Debug\C++OOP5.1.exe : fatal error LNK1120: 1 unresolved externals
