@@ -1,0 +1,3 @@
+﻿  C++OOP6.cpp
+E:\project\HomeWorkC++\C++OOP6\C++OOP6.cpp(81,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  C++OOP6.vcxproj -> E:\project\HomeWorkC++\homework1\x64\Debug\C++OOP6.exe
