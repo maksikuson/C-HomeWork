@@ -1,2 +1,3 @@
 ﻿  C++OOP8.cpp
+E:\project\HomeWorkC++\С++OOP8\C++OOP8.cpp(150,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   С++OOP8.vcxproj -> E:\project\HomeWorkC++\homework1\x64\Debug\С++OOP8.exe
