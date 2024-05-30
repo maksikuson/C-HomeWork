@@ -1,0 +1,3 @@
+﻿  C++OOP14.cpp
+E:\project\HomeWorkC++\C++OOP14\C++OOP14.cpp(99,30): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  C++OOP14.vcxproj -> E:\project\HomeWorkC++\homework1\x64\Debug\C++OOP14.exe
