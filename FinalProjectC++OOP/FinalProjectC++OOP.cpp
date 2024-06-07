@@ -178,7 +178,8 @@ public:
             cout << "6. Load data from file                 | " << endl;
             cout << "7. Update student data                 |" << endl;
             cout << "8. Filter students by major            | " << endl;
-            cout << "9. Exit                                | " << endl;
+            cout << "9. List unique majors                  | " << endl;
+            cout << "10. Exit                               | " << endl;
             cout << "========================================" << endl;
             cout << "Enter option: ";
             cin >> choice;
@@ -270,6 +271,12 @@ public:
                 break;
             }
             case 9:
+            {
+                cout << "Unique Majors:" << endl;
+                db.listUniqueMajors();
+                break;
+            }
+            case 10:
                 return;
             default:
                 cout << "Invalid choice" << endl;
