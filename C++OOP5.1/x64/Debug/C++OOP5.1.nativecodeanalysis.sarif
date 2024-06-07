@@ -1,0 +1,229 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'newData'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/project/HomeWorkC++/C++OOP5.1/C++OOP5.1.cpp"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 17,
+                  "endLine": 35,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Array<int>::SetSize",
+                  "decoratedName": "?SetSize@?$Array@H@@QEAAXHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/project/HomeWorkC++/C++OOP5.1/C++OOP5.1.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/project/HomeWorkC++/C++OOP5.1/C++OOP5.1.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/project/HomeWorkC++/C++OOP5.1/C++OOP5.1.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'newData' is an array of 1 elements (4 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/project/HomeWorkC++/C++OOP5.1/C++OOP5.1.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/project/HomeWorkC++/C++OOP5.1/C++OOP5.1.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<size')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/project/HomeWorkC++/C++OOP5.1/C++OOP5.1.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/project/HomeWorkC++/C++OOP5.1/C++OOP5.1.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 39
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/project/HomeWorkC++/C++OOP5.1/C++OOP5.1.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<size')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/project/HomeWorkC++/C++OOP5.1/C++OOP5.1.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'newData[1]', (writable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33523.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/project/HomeWorkC++/C++OOP5.1/C++OOP5.1.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8441c7bb7e1a5b0b4c1fe61f485050df54e2eee5aabaa0224835ef5f0168582f"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,9 @@
-﻿  homework7.vcxproj -> E:\project\HomeWorkC++\homework1\x64\Debug\homework7.exe
+﻿  homework7.cpp
+E:\project\HomeWorkC++\homework7\homework7.cpp(235,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\project\HomeWorkC++\homework7\homework7.cpp(235,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\project\HomeWorkC++\homework7\homework7.cpp(235,37): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\project\HomeWorkC++\homework7\homework7.cpp(235,42): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\project\HomeWorkC++\homework7\homework7.cpp(235,49): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\project\HomeWorkC++\homework7\homework7.cpp(235,62): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\project\HomeWorkC++\homework7\homework7.cpp(235,68): warning C4305: 'initializing': truncation from 'double' to 'float'
+  homework7.vcxproj -> E:\project\HomeWorkC++\homework1\x64\Debug\homework7.exe

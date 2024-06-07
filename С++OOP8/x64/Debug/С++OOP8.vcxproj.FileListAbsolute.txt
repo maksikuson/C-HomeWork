@@ -1,0 +1,2 @@
+E:\project\HomeWorkC++\homework1\x64\Debug\С++OOP8.exe.lastcodeanalysissucceeded
+E:\project\HomeWorkC++\С++OOP8\x64\Debug\NativeCodeAnalysis.read.1.tlog

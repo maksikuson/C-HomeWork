@@ -2,3 +2,4 @@
 E:\project\HomeWorkC++\C++OOP7.2\C++OOP7.2.cpp(156,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 E:\project\HomeWorkC++\C++OOP7.2\C++OOP7.2.cpp(263,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
   C++OOP7.2.vcxproj -> E:\project\HomeWorkC++\homework1\x64\Debug\C++OOP7.2.exe
+E:\project\HomeWorkC++\C++OOP7.2\C++OOP7.2.cpp(38): warning C26495: Variable 'BusStop::day_time' is uninitialized. Always initialize a member variable (type.6).

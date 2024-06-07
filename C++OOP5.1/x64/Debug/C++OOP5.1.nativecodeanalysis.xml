@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\project\HomeWorkC++\C++OOP5.1\</FILEPATH>
+      <FILENAME>C++OOP5.1.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'newData'.</DESCRIPTION>
+    <FUNCTION>Array&lt;int&gt;::SetSize</FUNCTION>
+    <DECORATED>?SetSize@?$Array@H@@QEAAXHH@Z</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\project\HomeWorkC++\C++OOP5.1\</FILEPATH>
+        <FILENAME>C++OOP5.1.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\project\HomeWorkC++\C++OOP5.1\</FILEPATH>
+        <FILENAME>C++OOP5.1.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\project\HomeWorkC++\C++OOP5.1\</FILEPATH>
+        <FILENAME>C++OOP5.1.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'newData' is an array of 1 elements (4 bytes)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\project\HomeWorkC++\C++OOP5.1\</FILEPATH>
+        <FILENAME>C++OOP5.1.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\project\HomeWorkC++\C++OOP5.1\</FILEPATH>
+        <FILENAME>C++OOP5.1.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;size')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\project\HomeWorkC++\C++OOP5.1\</FILEPATH>
+        <FILENAME>C++OOP5.1.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\project\HomeWorkC++\C++OOP5.1\</FILEPATH>
+        <FILENAME>C++OOP5.1.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\project\HomeWorkC++\C++OOP5.1\</FILEPATH>
+        <FILENAME>C++OOP5.1.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;size')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\project\HomeWorkC++\C++OOP5.1\</FILEPATH>
+        <FILENAME>C++OOP5.1.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'newData[1]', (writable range is 0 to 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

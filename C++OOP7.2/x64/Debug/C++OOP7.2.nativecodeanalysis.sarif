@@ -1,0 +1,298 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'BusStop::day_time' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/project/HomeWorkC++/C++OOP7.2/C++OOP7.2.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusStop::{ctor}",
+                  "decoratedName": "??0BusStop@@QEAA@W4TypeOFStop@@HHHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "BusStop::day_time"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'BusStop::average_sum' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/project/HomeWorkC++/C++OOP7.2/C++OOP7.2.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusStop::{ctor}",
+                  "decoratedName": "??0BusStop@@QEAA@W4TypeOFStop@@HHHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "BusStop::average_sum"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'BusStop::average_count' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/project/HomeWorkC++/C++OOP7.2/C++OOP7.2.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusStop::{ctor}",
+                  "decoratedName": "??0BusStop@@QEAA@W4TypeOFStop@@HHHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "BusStop::average_count"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'BusStop::passengers_time' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/project/HomeWorkC++/C++OOP7.2/C++OOP7.2.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusStop::{ctor}",
+                  "decoratedName": "??0BusStop@@QEAA@W4TypeOFStop@@HHHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "BusStop::passengers_time"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'BusStop::passenger_count' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/project/HomeWorkC++/C++OOP7.2/C++OOP7.2.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusStop::{ctor}",
+                  "decoratedName": "??0BusStop@@QEAA@W4TypeOFStop@@HHHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "BusStop::passenger_count"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'BusStop::passenger_time_count' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/project/HomeWorkC++/C++OOP7.2/C++OOP7.2.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusStop::{ctor}",
+                  "decoratedName": "??0BusStop@@QEAA@W4TypeOFStop@@HHHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "BusStop::passenger_time_count"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'BusStop::buses_time' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/project/HomeWorkC++/C++OOP7.2/C++OOP7.2.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusStop::{ctor}",
+                  "decoratedName": "??0BusStop@@QEAA@W4TypeOFStop@@HHHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "BusStop::buses_time"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'BusStop::free_seats' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/project/HomeWorkC++/C++OOP7.2/C++OOP7.2.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusStop::{ctor}",
+                  "decoratedName": "??0BusStop@@QEAA@W4TypeOFStop@@HHHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "BusStop::free_seats"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'BusStop::bus_time_count' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/project/HomeWorkC++/C++OOP7.2/C++OOP7.2.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BusStop::{ctor}",
+                  "decoratedName": "??0BusStop@@QEAA@W4TypeOFStop@@HHHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "BusStop::bus_time_count"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33523.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/project/HomeWorkC++/C++OOP7.2/C++OOP7.2.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "bd1957eb9354c98716c98066befa3584ab584df3e8733a6088a921461e87f3c0"
+          }
+        }
+      ]
+    }
+  ]
+}

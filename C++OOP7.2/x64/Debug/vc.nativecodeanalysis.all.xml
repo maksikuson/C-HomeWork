@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>E:\project\HomeWorkC++\C++OOP7.2\</FILEPATH>
+      <FILENAME>C++OOP7.2.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'BusStop::day_time' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>BusStop::{ctor}</FUNCTION>
+    <DECORATED>??0BusStop@@QEAA@W4TypeOFStop@@HHHHHHH@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>BusStop::day_time</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

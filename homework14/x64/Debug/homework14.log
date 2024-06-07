@@ -1,1 +1,3 @@
-﻿  homework14.vcxproj -> E:\project\HomeWorkC++\homework1\x64\Debug\homework14.exe
+﻿  homework14.cpp
+  homework14.vcxproj -> E:\project\HomeWorkC++\homework1\x64\Debug\homework14.exe
+E:\project\HomeWorkC++\homework14\homework14.cpp(30): warning C6386: Buffer overrun while writing to 'newMatrix[i]'.

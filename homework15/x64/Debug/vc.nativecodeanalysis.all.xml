@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>E:\project\HomeWorkC++\homework15\</FILEPATH>
+      <FILENAME>homework15.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Car::length' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Car::{ctor}</FUNCTION>
+    <DECORATED>??0Car@@QEAA@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Car::length</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

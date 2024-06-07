@@ -1,2 +1,4 @@
 ﻿  OOP4.cpp
   C++OOP4.vcxproj -> E:\project\HomeWorkC++\homework1\x64\Debug\C++OOP4.exe
+E:\project\HomeWorkC++\C++OOP4\OOP4.cpp(21): warning C26495: Variable 'Train::carriage' is uninitialized. Always initialize a member variable (type.6).
+E:\project\HomeWorkC++\C++OOP4\OOP4.cpp(29): warning C6386: Buffer overrun while writing to 'carriage'.
